@@ -1,4 +1,4 @@
-module github.com/scastria/terraform-provider-apigee
+module github.com/heisinbug/terraform-provider-apigee
 
 go 1.15
 

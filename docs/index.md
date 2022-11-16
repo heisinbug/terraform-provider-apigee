@@ -13,7 +13,7 @@ Terraform 0.13 and later:
 terraform {
   required_providers {
     apigee = {
-      source  = "scastria/apigee"
+      source  = "heisinbuggggggg/apigee"
       version = "~> 0.1.0"
     }
   }

@@ -4,7 +4,7 @@ import (
 	"flag"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-	"github.com/scastria/terraform-provider-apigee/apigee"
+	"github.com/heisinbug/terraform-provider-apigee/apigee"
 )
 
 func main() {
@@ -14,7 +14,7 @@ func main() {
 
 	opts := &plugin.ServeOpts{
 		Debug:        debug,
-		ProviderAddr: "scastria/apigee",
+		ProviderAddr: "heisinbug/apigee",
 		ProviderFunc: apigee.Provider,
 	}
 
